@@ -1,0 +1,37 @@
+/*
+.container {border: 2px solid rgba(0, 116, 217, .7);}
+.row {
+    border: 2px solid rgba(46, 204, 64, .7);
+    background-color: rgba(46, 204, 64, .2);
+}
+[class^="col-"] {border: 2px dotted rgba(255, 65, 54, .7);}
+*/
+.container {
+/*    font-family: "YU Mincho";
+*/    font-family: "Meiryo";
+    font-size: 16px;           /* フォントサイズ */
+    line-height: 1.7em;     /* 行間 */
+/*    background-color: #fff9ef;
+*/
+    margin-top: 10px;
+}
+[class^="col-"] {
+    background-color: #fff9ef;
+}
+h4 {
+    background-color: #e3b9f7;
+}
+
+#titles {
+    height: 560px;
+    overflow: auto;
+}
+#main {
+    height: 560px;
+    width: 560px;
+    overflow:auto;
+}
+canvas {
+    background-color: #000;
+    border: 1px solid #999;
+}
